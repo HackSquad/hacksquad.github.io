@@ -10,7 +10,10 @@
 -----------------------------------------------------------------------------------*/
 /*custom css*/
 #logo img {
-	padding: 5px;
+	padding: 10px;
+}
+#primary-menu {
+	height: 40px;
 }
 .fullhalfcust {
 	width:50% !important;
