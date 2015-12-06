@@ -367,15 +367,15 @@ span.middot {
 }
 
 .imagescale img {
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
+	-webkit-transform: scale(1);
+	transform: scale(1);
 	-webkit-transition: all 1s ease;
 	transition: all 1s ease;
 }
 
 .imagescale:hover img {
-	-webkit-transform: scale(1);
-	transform: scale(1);
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
 }
 
 .grayscale {
@@ -1997,11 +1997,11 @@ body.top-search-open #side-panel-trigger { opacity: 0; }
 #header.sticky-header:not(.static-sticky):not(.sticky-style-2) #logo img,
 #header.sticky-header:not(.static-sticky) #primary-menu,
 #header.sticky-header:not(.static-sticky) #primary-menu > ul,
-#header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a { height: 60px; }
+#header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a { height: 40px; }
 
 #header.sticky-header:not(.static-sticky).sticky-style-2 { height: 161px; }
 
-#header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a { line-height: 60px; }
+/*#header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a { line-height: 60px; }*/
 
 #header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a i { line-height: 59px; }
 
