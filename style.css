@@ -15,10 +15,6 @@
 #primary-menu.style-2, #primary-menu ul {
 	height: 40px !important;
 }
-.fullhalfcust {
-	width:50% !important;
-	background-color: #212121 !important;
-}
 #footer {
 	background-color: black !important;
 	color:white !important;
@@ -26,11 +22,21 @@
 #notbutton:hover {
 	cursor: default;
 }
+.fullhalfcust {
+	width:50% !important;
+	background-color: #212121 !important;
+}
 .blacktext {
 	color:black !important;
 }
 .whitetext {
 	color:white !important;
+}
+.notexttransform {
+	text-transform: none !important;
+}
+.lineheight186 {
+	line-height: 186px;
 }
 /*---------------------------*/
 dl, dt, dd, ol, ul, li {

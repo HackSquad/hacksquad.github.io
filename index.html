@@ -103,7 +103,7 @@
 				<div class="nomargin nobottomborder">
 					<div class="container clearfix">
 						<div class="center nomargin">
-							<img src="images/chat.png" alt="Why wait?">
+							<img src="images/chat.png" data-animate="fadeInUp" data-delay="" data-speed="50" alt="Why wait?">
 						</div>
 					</div>
 				</div>
@@ -121,11 +121,26 @@
 
 				<div class="clear"></div>
 
-				<a href="#" id="notbutton" class="button button-full center tright nobottommargin" style="background-color:white">
+				<!--<a href="#" id="notbutton" class="button button-full center tright nobottommargin" style="background-color:white">
 					<div class="container clearfix col-padding t600 blacktext">
 						Inspired to get into online business & entrepreneurship?</div>
-				</a>
+				</a>-->
+				<div id="slider" class="swiper_wrapper clearfix"  style="height: 186px;">
+					<div class="swiper-container" style="background: white;">
+						<div class="swiper-wrapper">
+							<!--First Slide-->
+							<div class="swiper-slide t600 heading-block title-center nobottomborder page-section">
+								<h2 class="notexttransform blacktext lineheight186">Inspired to get into online business & entrepreneurship?</h2>
+							</div>
 
+							<!--Second Slide-->
+							<div class="swiper-slide t600 heading-block title-center nobottomborder page-section">
+								<h2 class="notexttransform blacktext lineheight186">Execute your ideas with Hacksquad!</h2>
+							</div>
+
+						</div>
+					</div>
+				</div>
 				<div class="section nomargin" id="about" style="background-color: rgb(89,89,89);">
 					<div class="container clear-bottommargin clearfix">
 						<div class="clearfix">
@@ -200,6 +215,18 @@
 	<!-- Footer Scripts
 	============================================= -->
 	<script type="text/javascript" src="js/functions.js"></script>
-
+	<script>
+	$(function(){
+		var mySwiper = $('.swiper-container').swiper({
+		mode:'vertical',
+		autoplay: 2500,
+		speed: 500,
+		loop: true,
+		mousewheelControl: true,
+		mousewheelControlForceToAxis: true,
+		autoplayDisableOnInteraction: false,
+		});
+	});
+</script>
 </body>
 </html>
