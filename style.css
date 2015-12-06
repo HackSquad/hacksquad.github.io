@@ -12,7 +12,7 @@
 #logo img {
 	padding: 10px;
 }
-#primary-menu.style-2 {
+#primary-menu.style-2, #primary-menu ul {
 	height: 40px;
 }
 .fullhalfcust {
