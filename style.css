@@ -22,9 +22,17 @@
 #notbutton:hover {
 	cursor: default;
 }
+@media (min-width: 991px){
 .fullhalfcust {
 	width:50% !important;
 	background-color: #212121 !important;
+}
+.col_one_third {
+	width: 33.33% !important;
+}
+.swiper_wrapper {
+	height: 186px !important;
+}
 }
 .blacktext {
 	color:black !important;
@@ -37,6 +45,31 @@
 }
 .lineheight186 {
 	line-height: 186px;
+}
+@media (max-width: 991px) {
+#primary-menu-trigger {
+	top: 0 !important;
+}
+#logo {
+	height: 25px !important;
+}
+#logo img {
+	height: 50px !important;
+}
+}
+@media (max-width: 767px) {
+#content .col_half, #content .col_one_third {
+	margin-bottom: 0 !important;
+}
+.heading-block h2 {
+	font-size: 18px !important;
+}
+#content .feature-box h3 {
+	font-size: 12px !important;
+}
+#copyrights .col_half:last-child  {
+	display: inherit !important;
+}
 }
 /*---------------------------*/
 dl, dt, dd, ol, ul, li {
