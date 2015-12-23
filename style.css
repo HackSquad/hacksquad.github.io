@@ -22,7 +22,7 @@
 #notbutton:hover {
 	cursor: default;
 }
-@media (min-width: 991px){
+@media (min-width: 767px){
 .fullhalfcust {
 	width:50% !important;
 	background-color: #212121 !important;
@@ -30,6 +30,8 @@
 .col_one_third {
 	width: 33.33% !important;
 }
+}
+@media (min-width: 991px){
 .swiper_wrapper {
 	height: 186px !important;
 }
@@ -45,6 +47,9 @@
 }
 .lineheight186 {
 	line-height: 186px;
+}
+.home #primary-menu-trigger {
+	display: none;
 }
 @media (max-width: 991px) {
 #primary-menu-trigger {
@@ -69,6 +74,9 @@
 }
 #copyrights .col_half:last-child  {
 	display: inherit !important;
+}
+.home #header-wrap {
+	display: none;
 }
 }
 /*---------------------------*/
